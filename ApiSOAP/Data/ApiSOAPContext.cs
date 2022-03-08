@@ -15,5 +15,6 @@ namespace ApiSOAP.Data
         }
 
         public DbSet<ApiSOAP.Models.Calculadora> Calculadora { get; set; }
+        public DbSet<ApiSOAP.Models.Correio> Correio { get; set; }
     }
 }

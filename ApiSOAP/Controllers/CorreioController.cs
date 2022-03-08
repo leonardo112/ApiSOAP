@@ -14,7 +14,11 @@ namespace ApiSOAP.Controllers
         {
             _logger = logger;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="cep"></param>
+        /// <returns></returns>
         [HttpPost]
         public Endereco Correio(string cep)
         {
