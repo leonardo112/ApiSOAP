@@ -44,9 +44,9 @@ namespace ApiSOAP.Controllers
             }
             else
             {
-                return null;
+                return null; // erro soap
             }
-            return null;
+            return null; // erro soap
         }
     }
 }
